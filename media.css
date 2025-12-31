@@ -1,0 +1,118 @@
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+        margin: 0 10px;
+    }
+
+    .intro-sec {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .damy-boxes {
+        display: none;
+    }
+
+    .dev-nics {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .img {
+        width: 100%;
+    }
+
+    .text {
+        width: 100%;
+
+    }
+
+    .btn,
+    .btn2,
+    .img img {
+        display: none;
+    }
+
+    .text p {
+        width: 90%;
+    }
+
+
+    .text h1 {
+        width: 90%;
+    }
+
+    .link {
+        width: 90%;
+    }
+
+    .skills {
+        display: flex;
+        margin-bottom: 15px;
+        width: 95%;
+    }
+
+    .my-btn {
+        margin-right: 9px;
+
+    }
+
+    .about-us h1 {
+        position: absolute;
+        top: 1px;
+        right: 115px;
+        z-index: 4;
+        color: var(--text-color);
+    }
+
+    .divider-wrapper {
+        margin: 0;
+        /* margin-bottom: -44px; */
+    }
+
+    .bg-name {
+        color: rgb(242 242 242 / 19%);
+
+    }
+
+    .text {
+        margin-top: 25%;
+    }
+
+    .social-links {
+        width: 90%;
+    }
+
+    .links-redirect a {
+        margin: 10px;
+    }
+
+    .work-overview {
+        padding: 0px;
+    }
+
+    .barrier {
+        height: 30vh;
+    }
+
+    .wa-txt {
+        position: fixed;
+        bottom: 20px;
+        right: 10px;
+        z-index: 1000;
+    }
+
+
+    form {
+        width: 90vw;
+        
+    }
+
+}
