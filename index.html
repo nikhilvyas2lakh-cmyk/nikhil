@@ -12,17 +12,25 @@
 
 <body>
   <div id="home"></div>
-  <nav class="nav-bar">
+  <div class="div" style="padding: 18px; font-size: 24px;">
+    <a href="nikhilvyas.auroo.in" style="border-radius: 50%; border: 0.5px solid rgba(126, 120, 120, 0.178);">
+      <i class="fa-solid fa-angle-left" style="color: rgb(255, 212, 59);"></i>
+    </a>
+  </div>
+  <!-- <nav class="nav-bar">
     <div class="nav-in">
       <ul>
-        <li><a href="#home">&nbsp;&nbsp;Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#my-work">Work</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="resume\index.html">&nbsp;&nbsp;Home</a></li>
+        <li> <a href="resume.html">Resume</a>
+        </li>
+        <li> <a href="portfolio.html">Portfolio</a>
+        </li>
+        <li> <a href="contact.html">Contact</a>
+        </li>
         <li>&nbsp;&nbsp;</li>
       </ul>
     </div>
-  </nav>
+  </nav> -->
 
   <div class="damy-boxes first"></div>
   <div class="damy-boxes second"></div>
@@ -196,332 +204,84 @@
       <span class="bg-name">MY WORK</span>
       <h1>MY WORK</h1>
     </section>
-    <div class="divider-wrapper">
-      <span class="divider-line left"></span>
-      <span class="divider-dot"></span>
-      <span class="divider-line right"></span>
-    </div>
+    <script>
+      //     (function () {
+      //       "use strict";
+      //       /*
+      //        * Form Validation
+      //        */
 
-    <section class="work-overview">
-      <div class="heading-work">
-        <h2 style="color: var(--text-color); margin: 100px; display: block;">● Recent work</h2>
-      </div>
-      <details class="website-view">
-        <summary class="first-view">
-          <div class="com-name">StudyCure</div>
-          <!-- <div class="sumry" style="margin: 20px;">An Educational and study tools Related website </div> -->
+      //       // Fetch all the forms we want to apply custom validation styles to
+      //       const forms = document.querySelectorAll(".needs-validation");
+      //       const result = document.getElementById("result");
+      //       // Loop over them and prevent submission
+      //       Array.prototype.slice.call(forms).forEach(function (form) {
+      //         form.addEventListener(
+      //           "submit",
+      //           function (event) {
+      //             if (!form.checkValidity()) {
+      //               event.preventDefault();
+      //               event.stopPropagation();
 
-        </summary>
-        <div class="detail-tab">
-          <div class="sumry" style="margin: 20px;">An Educational and study tools Related website </div>
-          <div class="sumry" style="margin: 20px;">A website of a senior school located in padukallan rajasthan </div>
-          <a href="https://studycure.xyz" style="text-decoration: none;">
-            <div class="sumry-link my-btn"
-              style="margin: 20px; justify-content: center; font-size: 1.3em; font-weight: 400;">Visit Website ➜</div>
-          </a>
-        </div>
-      </details>
+      //               form.querySelectorAll(":invalid")[0].focus();
+      //             } else {
+      //               /*
+      //                * Form Submission using fetch()
+      //                */
 
-      <details class="website-view">
-        <summary class="first-view">jcs-thanwala</summary>
-        <div class="detail-tab">
-          <div class="sumry" style="margin: 20px;">A website for computer center that provide variety of courses
-            <strong>Note/</strong> this website is on devlopment therefor this is not responsive for mobile and may be
-            contain some glitches
-          </div>
+      //               const formData = new FormData(form);
+      //               event.preventDefault();
+      //               event.stopPropagation();
+      //               const object = {};
+      //               formData.forEach((value, key) => {
+      //                 object[key] = value;
+      //               });
+      //               const json = JSON.stringify(object);
+      //               result.innerHTML = "Please wait...";
 
+      //               fetch("https://api.web3forms.com/submit", {
+      //                 method: "POST",
+      //                 headers: {
+      //                   "Content-Type": "application/json",
+      //                   Accept: "application/json"
+      //                 },
+      //                 body: json
+      //               })
+      //                 .then(async (response) => {
+      //                   let json = await response.json();
+      //                   if (response.status == 200) {
+      //                     result.innerHTML = json.message;
+      //                     result.classList.remove("text-gray-500");
+      //                     result.classList.add("text-green-500");
+      //                   } else {
+      //                     console.log(response);
+      //                     result.innerHTML = json.message;
+      //                     result.classList.remove("text-gray-500");
+      //                     result.classList.add("text-red-500");
+      //                   }
+      //                 })
+      //                 .catch((error) => {
+      //                   console.log(error);
+      //                   result.innerHTML = "Something went wrong!";
+      //                 })
+      //                 .then(function () {
+      //                   form.reset();
+      //                   form.classList.remove("was-validated");
+      //                   setTimeout(() => {
+      //                     result.style.display = "none";
+      //                   }, 5000);
+      //                 });
+      //             }
+      //             form.classList.add("was-validated");
+      //           },
+      //           false
+      //         );
+      //       });
+      //     })();
 
-          <a href="https://jcs-thanwala.vercel.app/" style="text-decoration: none;">
-            <div class="sumry-link my-btn"
-              style="margin: 20px; justify-content: center; font-size: 1.3em; font-weight: 400;">Visit Website ➜</div>
-          </a>
-        </div>
-      </details>
+    </script>
+    <script src="https://kit.fontawesome.com/c9746bd4d8.js" crossorigin="anonymous"></script>
 
-      <details class="website-view">
-        <summary class="first-view">Fogat</summary>
-        <div class="detail-tab">
-          <div class="sumry" style="margin: 20px;"> FOGAT - A Habit Tracker PWA Web App that tracks your habits and help
-            to build discipline and consistancy</div>
-          <a href="https://fogat.vercel.app/" style="text-decoration: none;">
-            <div class="sumry-link my-btn"
-              style="margin: 20px; justify-content: center; font-size: 1.3em; font-weight: 400;">Visit Website ➜</div>
-          </a>
-        </div>
-      </details>
-
-      <details class="website-view">
-        <summary class="first-view">JBM School</summary>
-        <div class="detail-tab">
-          <div class="sumry" style="margin: 20px;">A website of a senior school located in padukallan rajasthan </div>
-          <a href="https://jbmpadu.gt.tc/?i=1" style="text-decoration: none;">
-            <div class="sumry-link my-btn"
-              style="margin: 20px; justify-content: center; font-size: 1.3em; font-weight: 400;">Visit Website ➜</div>
-          </a>
-        </div>
-      </details>
-
-
-    </section>
-
-    <section class="my-work" id="contact">
-      <span class="bg-name">CONT.</span>
-      <h1>CONTACT</h1>
-    </section>
-    <div class="divider-wrapper">
-      <span class="divider-line left"></span>
-      <span class="divider-dot"></span>
-      <span class="divider-line right"></span>
-    </div>
-
-    <section class="email-me">
-      <div class="head-form">
-        <h2>Get In Touch</h2>
-        <p>Feel free to drop me an Massage</p>
-      </div>
-
-      <!-- <form action="https://api.web3forms.com/submit" method="POST">
-
-        <form action="https://api.web3forms.com/submit" method="POST">
-          <input type="hidden" name="access_key" value="6b2eef07-ceac-4288-9072-0786d109d86c">
-          <input type="text" name="name" placeholder="Your Name" required>
-          <input type="email" name="email" placeholder="Your email" required>
-          <textarea name="message" placeholder="Your Massage with your mobile number" required></textarea>
-          <button class="my-btn button" type="submit">Submit</button>
-        </form> -->
-      <!-- 
-      <div class="flex items-center min-h-screen bg-gray-100 dark:bg-gray-900">
-        <div class="container mx-auto">
-          <div class="max-w-xl mx-auto my-10 bg-white p-5 rounded-md shadow-sm">
-            <div class="text-center">
-              <h1 class="my-3 text-3xl font-semibold text-gray-700 dark:text-gray-200">
-                Contact Us
-              </h1>
-              <p class="text-gray-400 dark:text-gray-400">
-                Fill up the form below to send us a message.
-              </p>
-            </div>
-            <div class="m-7">
-              <form action="https://api.web3forms.com/submit" method="POST" id="form" class="needs-validation"
-                novalidate>
-                <input type="hidden" name="access_key" value="b1e56a02-f1b2-4f82-b0b2-26ec59afe1e8" />
-                <input type="hidden" name="subject" value="New Submission from Web3Forms" />
-                <input type="checkbox" name="botcheck" id="" style="display: none;" />
-
-                <div class="flex mb-6 space-x-4">
-                  <div class="w-full md:w-1/2">
-                    <label for="fname" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">First Name</label>
-                    <input type="text" name="name" id="first_name" placeholder="John" required
-                      class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
-                    <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-                      Please provide your first name.
-                    </div>
-                  </div>
-                  <div class="w-full md:w-1/2">
-                    <label for="lname" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Last Name</label>
-                    <input type="text" name="last_name" id="lname" placeholder="Doe" required
-                      class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
-                    <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-                      Please provide your last name.
-                    </div>
-                  </div>
-                </div>
-
-                <div class="flex mb-6 space-x-4">
-                  <div class="w-full md:w-1/2">
-                    <label for="email" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Email Address</label>
-                    <input type="email" name="email" id="email" placeholder="you@company.com" required
-                      class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
-                    <div class="empty-feedback text-red-400 text-sm mt-1">
-                      Please provide your email address.
-                    </div>
-                    <div class="invalid-feedback text-red-400 text-sm mt-1">
-                      Please provide a valid email address.
-                    </div>
-                  </div>
-
-                  <div class="w-full md:w-1/2">
-                    <label for="phone" class="block text-sm mb-2 text-gray-600 dark:text-gray-400">Phone Number</label>
-                    <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required
-                      class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
-
-                    <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-                      Please provide your phone number.
-                    </div>
-                  </div>
-                </div>
-                <div class="mb-6">
-                  <label for="message" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Your Message</label>
-
-                  <textarea rows="5" name="message" id="message" placeholder="Your Message"
-                    class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
-                    required></textarea>
-                  <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-                    Please enter your message.
-                  </div>
-                </div>
-                <div class="mb-6">
-                  <button type="submit"
-                    class="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none">
-                    Send Message
-                  </button>
-                </div>
-                <p class="text-base text-center text-gray-400" id="result"></p>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <form action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="b1e56a02-f1b2-4f82-b0b2-26ec59afe1e8">
-        <input type="text" placeholder="your Name" name="name" required>
-        <input type="email" placeholder="Your E-mail" name="email" required>
-        <input type="number" placeholder="Your Phone Number" name="number" required>
-        <textarea name="message" placeholder="our Query" required></textarea>
-        <button type="submit">Submit Form</button>
-      </form>
-
-    </section>
-
-    <section style="height: 10vh; margin: 100px 0; text-align: center;">
-      <div class="other-contact">
-        <h2>Other ways to reach me:</h2>
-        <div class="linkings" style="margin: 10vh 0;">
-          <a href="https://www.instagram.com/teamauroo?igsh=MWNtNm5ocmltamIzbw%3D%3D">
-            <img src="instagram.png" alt="instagram" height="40px">
-
-          </a>
-          <a href="https://wa.me/message/U2PIP27VA7E6D1">
-            <img src="whatsapp (1).png" alt="Discord" height="40px">
-
-          </a>
-          <a href="https://discord.gg/Smpd9bMc">
-            <img src="discord.png" alt="Discord" height="40px">
-          </a>
-          <a href="https://github.com/nikhilvyas-2">
-            <img src="github.png" alt="Discord" height="40px" style="color: white;">
-
-          </a>
-          <a
-            href="https://www.linkedin.com/in/nikhil-vyas-805b28397?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-            <img src="linkedin.png" alt="Discord" height="40px">
-
-          </a>
-        </div>
-      </div>
-      <p>© 2025-26 Nikhil Vyas. All rights reserved.</p>
-    </section>
-    <div class="wa-txt">
-      <a href="https://wa.me/message/U2PIP27VA7E6D1">
-        <img src="whatsapp (1).png" alt="Discord" height="0px">
-
-      </a>
-    </div>
-  </main>
-
-
-  <script>
-    function copyText() {
-      const text = document.getElementById("textToCopy").innerText;
-      navigator.clipboard.writeText(text).then(() => {
-        alert("Copied: " + text);
-      }).catch(err => {
-        alert("Failed to copy text: " + err);
-      });
-    }
-
-    let lastScroll = 0;
-    const nav = document.querySelector('.nav-bar');
-
-    window.addEventListener('scroll', () => {
-      const currentScroll = window.pageYOffset;
-
-      if (currentScroll > lastScroll && currentScroll > 80) {
-        // scrolling down
-        nav.classList.add('hide');
-      } else {
-        // scrolling up
-        nav.classList.remove('hide');
-      }
-
-      lastScroll = currentScroll;
-    });
-
-    //     (function () {
-    //       "use strict";
-    //       /*
-    //        * Form Validation
-    //        */
-
-    //       // Fetch all the forms we want to apply custom validation styles to
-    //       const forms = document.querySelectorAll(".needs-validation");
-    //       const result = document.getElementById("result");
-    //       // Loop over them and prevent submission
-    //       Array.prototype.slice.call(forms).forEach(function (form) {
-    //         form.addEventListener(
-    //           "submit",
-    //           function (event) {
-    //             if (!form.checkValidity()) {
-    //               event.preventDefault();
-    //               event.stopPropagation();
-
-    //               form.querySelectorAll(":invalid")[0].focus();
-    //             } else {
-    //               /*
-    //                * Form Submission using fetch()
-    //                */
-
-    //               const formData = new FormData(form);
-    //               event.preventDefault();
-    //               event.stopPropagation();
-    //               const object = {};
-    //               formData.forEach((value, key) => {
-    //                 object[key] = value;
-    //               });
-    //               const json = JSON.stringify(object);
-    //               result.innerHTML = "Please wait...";
-
-    //               fetch("https://api.web3forms.com/submit", {
-    //                 method: "POST",
-    //                 headers: {
-    //                   "Content-Type": "application/json",
-    //                   Accept: "application/json"
-    //                 },
-    //                 body: json
-    //               })
-    //                 .then(async (response) => {
-    //                   let json = await response.json();
-    //                   if (response.status == 200) {
-    //                     result.innerHTML = json.message;
-    //                     result.classList.remove("text-gray-500");
-    //                     result.classList.add("text-green-500");
-    //                   } else {
-    //                     console.log(response);
-    //                     result.innerHTML = json.message;
-    //                     result.classList.remove("text-gray-500");
-    //                     result.classList.add("text-red-500");
-    //                   }
-    //                 })
-    //                 .catch((error) => {
-    //                   console.log(error);
-    //                   result.innerHTML = "Something went wrong!";
-    //                 })
-    //                 .then(function () {
-    //                   form.reset();
-    //                   form.classList.remove("was-validated");
-    //                   setTimeout(() => {
-    //                     result.style.display = "none";
-    //                   }, 5000);
-    //                 });
-    //             }
-    //             form.classList.add("was-validated");
-    //           },
-    //           false
-    //         );
-    //       });
-    //     })();
-
-  </script>
 
 </body>
 
